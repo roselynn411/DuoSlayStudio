@@ -2,18 +2,22 @@
 
 @import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
 
+
+
 body {
     font-family: 'Maven Pro', sans-serif;
+    font-family: 'Lemonada', cursive;
     line-height: 25px;
-}
+    font-style: oblique;
+  }
 
 .pad-bottom {
     padding-bottom: 60px;
 }
 
 section {
-    padding-bottom: 120px;
-    padding-top: 100px;
+   padding-bottom: 60px;
+    padding-top: 50px;
 }
 
 .btn {
@@ -23,11 +27,11 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #FF2276;
+    background-color: #FFC0CB;
 }
 
 .clr-set {
-    color: #FF2276;
+    color: #FFC0CB;
 }
 
 .f-big {
@@ -42,7 +46,7 @@ section {
 NAVBAR STYLES
 ==============================*/
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-    color: #FFF;
+    color: #DCDCDC;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -54,11 +58,11 @@ padding:0px;
         height:50px;
     }
 .navbar-default .navbar-toggle {
-    border-color: #FFF;
+    border-color: ##000000;
 }
 
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #FFF;
+        background-color: ##000000;
     }
 
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -66,12 +70,12 @@ padding:0px;
     }
 
 .navbar-default .navbar-nav > li > a {
-    color: #ffe9ec;
+    color: #FFC0CB
     font-weight: 900;
 }
 
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-        color: #fff;
+        color: ##000000;
         text-decoration: none;
     }
 
@@ -113,11 +117,11 @@ padding:0px;
     background-size: cover;
     -moz-background-size: cover;
     background-attachment: fixed;
-    color: #fff;
+    color: ##000000;
+
 }
 
     #header .overlay {
-        background-color: rgba(3, 3, 3, 0.8);
         min-height: 700px;
     }
 
@@ -127,7 +131,11 @@ padding:0px;
         font-weight: 900;
         padding-top: 180px;
         padding-bottom: 35px;
-        color: #FF2276;
+        color: black;
+        font-family: 'Brush Script MT', sans-serif;
+        background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
 
@@ -137,6 +145,7 @@ padding:0px;
         padding-bottom: 40px;
         text-transform: uppercase;
     }
+
 
 /*================================
     SERVICES STYLES
@@ -148,7 +157,7 @@ padding:0px;
     #services i {
         font-size: 80px;
         padding: 30px;
-        color: #FF2276;
+        color: #FFC0CB;
     }
 
     #services h4 {
@@ -172,7 +181,7 @@ padding:0px;
         background-color: rgba(0,0,0,0.7);
         padding-top: 90px;
         min-height: 300px;
-        color: #fff;
+        color: #black;
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -183,14 +192,14 @@ padding:0px;
 }
 
     .clients-carousel .thumbnail {
-        border: 1px solid #FF2276;
+        border: 1px solid #FFC0CB;
     }
 
     .clients-carousel .carousel-control.left {
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #FF2276;
+        background: #FFC0CB;
         left: -15px;
     }
 
@@ -198,7 +207,7 @@ padding:0px;
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #FF2276;
+        background: #FFC0CB;
         right: -15px;
     }
 
@@ -217,8 +226,8 @@ padding:0px;
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #FF2276;
-    border: 2px solid #FF2276;
+    background-color: #FFC0CB;
+    border: 2px solid #FFC0CB;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -229,7 +238,7 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #FF2276;
+    border: 2px solid #FFC0CB;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
@@ -261,7 +270,7 @@ padding:0px;
         background-color: rgba(0,0,0,0.7);
         padding-top: 90px;
         min-height: 300px;
-        color: #fff;
+        color: ##000000;
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -276,7 +285,7 @@ padding:0px;
     margin-right: 40px;
     max-height: 150px;
     margin-bottom: 20px;
-    border: 2px solid #FF2276;
+    border: 2px solid #FFC0CB;
 }
 
     .media img:hover {
@@ -295,10 +304,10 @@ padding:0px;
 }
 
     #contact .overlay {
-        background-color: rgba(0,0,0,0.9);
+        background-color:rgb(192,192,192);opacity:0.6;
         padding-top: 90px;
         min-height: 300px;
-        color: #fff;
+        color: ##000000;
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -322,6 +331,7 @@ padding:0px;
 /* =============================================================
   FOOTER SECTION STYLES
  ============================================================ */
+
 footer {
     padding: 20px;
     font-size: 15px;
@@ -334,3 +344,46 @@ footer {
         color: #000;
         text-decoration: none;
     }
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+     *, *:before, *:after {
+    	 box-sizing: border-box;
+    }
+    .container1 * {
+	 font-family: Arial, sans-serif;
+   min-height: 50vh;
+	 min-width: 80vw;
+	 display: flex;
+	 justify-content: center;
+   padding-bottom: 0px;
+    padding-top: 100px;
+}
+ .container1 .neon-text {
+	 position: relative;
+	 font-family: 'Pacifico', cursive;
+	 text-transform: uppercase;
+	 font-size: 110px;
+	 color: #fa99e2;
+	 -webkit-text-stroke-width: 5.5px;
+	 -webkit-text-stroke-color: #f537c6;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 text-shadow: 0 0 40px #f537c6, 0 0 40px #f537c6, 0 0 40px #f537c6;
+}
+ .container1 .neon-text:after {
+	 content: 'duoslaystudio';
+	 z-index: -1;
+	 position: absolute;
+	 color: transparent;
+	 -webkit-text-stroke-width: 5.5px;
+	 -webkit-text-stroke-color: #440334;
+	 top: -5%;
+	 left: -0.5%;
+}
