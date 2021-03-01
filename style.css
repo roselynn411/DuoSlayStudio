@@ -383,10 +383,8 @@ footer {
     padding-top: 100px;
 }
  .container1 .neon-text {
-	 position: relative;
 	 font-family: 'Pacifico', cursive;
 	 text-transform: uppercase;
-	 font-size: 110px;
 	 color: #fa99e2;
 	 -webkit-text-stroke-width: 5.5px;
 	 -webkit-text-stroke-color: #f537c6;
