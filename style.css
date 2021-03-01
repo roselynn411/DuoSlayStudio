@@ -20,11 +20,28 @@ section {
     padding-top: 50px;
 }
 
+.book{
+margin-bottom: 40px;
+
+
+}
 .btn {
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
 }
+
+#button{
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+
+}
+
+#Captionthis{
+   text-shadow: 2px 2px #ffc0cb;
+}
+
 
 .set-bk-clr {
     background-color: #FFC0CB;
@@ -141,9 +158,10 @@ padding:0px;
 
     #header h4 {
         line-height: 30px;
-        font-size: 12px;
+        font-size: 15px;
         padding-bottom: 40px;
         text-transform: uppercase;
+
     }
 
 
